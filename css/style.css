@@ -1,0 +1,192 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 36px;
+}
+
+header {
+  background-color: #aa0601;
+}
+header img {
+  width: 80px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 492px;
+}
+header ul li {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.content {
+  height: 0px;
+}
+
+footer {
+  background-color: #aa0601;
+}
+footer .container {
+  display: flex;
+  flex-direction: column;
+}
+footer .navicon {
+  margin-top: 48px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .navicon ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer .navicon img {
+  width: 48px;
+}
+footer .navicon .footnav {
+  width: 464px;
+  align-items: center;
+}
+footer .navicon .footnav a {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+footer .navicon .footicon {
+  width: 176px;
+}
+footer .contact {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+footer .contact .phone,
+footer .contact .mail {
+  display: flex;
+  align-items: center;
+}
+footer .contact .phone a,
+footer .contact .phone span,
+footer .contact .mail a,
+footer .contact .mail span {
+  font-size: 36px;
+  line-height: 1.5;
+  color: #fff;
+}
+footer .contact .phone span,
+footer .contact .mail span {
+  padding-right: 22px;
+}
+footer .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  margin-top: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+footer .bottom p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+footer .bottom ul {
+  width: 174px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom ul a {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  header .container {
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+  }
+  header .logo {
+    margin: 16px 15px 16px 0;
+    margin-left: 15px;
+  }
+  header ul {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  header ul a {
+    color: #fff;
+  }
+  header ul li {
+    box-sizing: border-box;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    border: 1px solid;
+    padding: 12px auto;
+  }
+  footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: start;
+    padding: 0 16px;
+  }
+  footer .container .footnav {
+    display: none;
+  }
+  footer .container .navicon {
+    margin-top: 24px;
+    width: 88px;
+  }
+  footer .container .navicon img {
+    width: 24px;
+  }
+  footer .container .contact {
+    width: auto;
+  }
+  footer .container .contact span,
+  footer .container .contact a {
+    font-size: 16px;
+  }
+  footer .container .bottom {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  footer .container .bottom p {
+    width: 100%;
+    font-size: 16px;
+  }
+  footer .container .bottom ul {
+    flex-direction: column;
+  }
+  footer .container .bottom ul li {
+    padding-top: 8px;
+  }
+}/*# sourceMappingURL=style.css.map */
