@@ -39,6 +39,9 @@ header ul li {
   font-size: 20px;
   line-height: 1.5;
 }
+header ul li a {
+  color: #fff;
+}
 
 .content {
   height: 0px;
